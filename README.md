@@ -1,6 +1,10 @@
 # Install Service Application
 
+[<img src="img/heading.jpg" width="500"/>](img/heading.jpg)
+
 Simple example application which installs, uninstalls, starts, stops and restarts a service.
+
+This application must start as Admin in order to satisfy these tasks.
 
 The service must have the self install option.
 
