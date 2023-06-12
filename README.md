@@ -8,14 +8,13 @@ This application must start as Admin in order to satisfy these tasks.
 
 The service must have the self install option.
 
-This example was written in `.Net core 6.0` and doesn't require the `C:\Windows\Microsoft.NET\Framework\v4.0.30319` path or `InstallUtil.exe`.
-since we are using `ManagedInstallerClass.InstallHelper`
+This Install example was written in `.Net core 6.0` and doesn't require the `C:\Windows\Microsoft.NET\Framework\v4.0.30319` path or `InstallUtil.exe` to install since we are using `ManagedInstallerClass.InstallHelper`.
 
 E.G
 
 ```C#
 /// <summary>
-/// The main entry point for the application.
+/// The self install option.
 /// </summary>
 static void Main(string[] args)
 {
