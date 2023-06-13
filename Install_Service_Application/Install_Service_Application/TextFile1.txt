@@ -1,0 +1,21 @@
+﻿
+
+
+
+For the 32-bit version of the .NET Framework 4 or 4.5 and later, 
+if your Windows installation directory is C:\Windows, the default path is C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe.
+
+
+
+
+For the 64-bit version of the .NET Framework 4 or 4.5 and later,
+the default path is C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe.
+
+sc.exe CREATE "MySVC" binpath= "D:\Me\Services\MySVC\MySVC.exe"
+
+C:\TimerService\TimerService\bin\Debug>net start service_name
+
+To start a service, type: net start ServiceName.
+To stop a service, type: net stop ServiceName.
+To pause a service, type: net pause ServiceName.
+To resume a service, type: net continue ServiceName.
